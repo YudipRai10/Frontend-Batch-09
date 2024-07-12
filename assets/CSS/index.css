@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+button {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+#box {
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid wheat;
+  outline: 3px solid green;
+}
+
+/* CSS Specifity: inline, id, class/pseudo-classes/ attribute selector, pseudo-elements/elements */
+/* id styling */
+#header_id {
+  background-color: red;
+}
+/* class styling */
+.header_header {
+  background-color: green;
+}

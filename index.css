@@ -1,0 +1,11 @@
+ul {
+  list-style-type: circle; /* Type of bullet point (e.g., disc, circle, square) */
+
+  list-style-position: inside; /* Position of the bullet point relative to the content */
+  list-style: none; /* Remove default bullet points */
+  list-style-image: url("path_to_image.png"); /* Use an image as the bullet point */
+}
+/*
+ol {
+  list-style-type: lower-greek; Type of numbering (e.g., decimal, decimal-leading-zero, lower-roman) 
+} */

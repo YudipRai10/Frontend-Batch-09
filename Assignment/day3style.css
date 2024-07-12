@@ -1,0 +1,127 @@
+h1 {
+  position: relative;
+  width: max-content;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 10px;
+}
+h1::after {
+  content: "";
+  height: 5px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(to right, orange, aqua);
+  z-index: -1;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  padding: 7px;
+  background-color: red;
+}
+.navbar button {
+  margin: 5px;
+
+  height: 30px;
+  width: 100px;
+  margin-top: 10px;
+  margin-bottom: auto;
+
+  border-radius: 20px;
+}
+.navbar button:hover {
+  background-color: blue;
+  color: white;
+  font-size: 1em;
+  transform: scale(1.1);
+  box-shadow: 5px 5px 5px white;
+}
+.main {
+  padding: 50px;
+}
+.main img,
+.part2section img {
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+}
+video {
+  display: block;
+  margin: auto;
+}
+.listing {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+  font-size: 2em;
+}
+header a {
+  text-decoration: none;
+}
+.listing a {
+  text-decoration: none;
+}
+.listing a:hover {
+  background-color: hsl(187, 89%, 58%);
+  font-size: 1.2em;
+}
+.project {
+  border: 5px solid pink;
+  height: 600px;
+  border-radius: 30px;
+}
+.projectname {
+  font-family: Ga Maamli;
+  text-align: center;
+  font-size: 4em;
+  background-color: bisque;
+}
+.projectsview {
+  width: 69%;
+  border: 2px solid red;
+  margin: auto;
+  border-radius: 50px;
+}
+.projectsview img {
+  margin: 20px;
+}
+.skilltitle {
+  font-family: Ga Maamli;
+  text-align: center;
+  font-size: 4em;
+  background-color: rgb(84, 172, 128);
+  width: 70%;
+  margin: auto;
+  margin-top: 20px;
+}
+.part2section {
+  text-align: center;
+}
+.part2section form {
+  margin-top: 30px;
+}
+.aboutme p {
+  font-family: Ga Maamli;
+  text-align: center;
+  font-size: 4em;
+  background-color: rgb(224, 171, 105);
+}
+.iframe,
+.audio {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.avi {
+  background-color: aquamarine;
+  border: 2px solid darkblue;
+  margin: 50px 0;
+  border-radius: 50px;
+}
+.video {
+  margin-top: 30px;
+}

@@ -1,0 +1,119 @@
+`<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day 3 Assignment</title>
+    <link rel="stylesheet" href="day3style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ga+Maamli&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      a:visited {
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1 id="title">My Portfolio</h1>
+      <nav class="navbar">
+        <button><a href="http://google.com" target="_blank">Google</a></button>
+        <form action="Day3part2.html" target="_blank">
+          <button type="submit">Contact Me</button>
+        </form>
+      </nav>
+    </header>
+    <main>
+      <section class="main">
+        <img src="../Images/my pp photo jpf.jpg" alt="my profile picture" />
+        <video controls autoplay muted>
+          <source src="../assets/Video/video1.mp4" />
+        </video>
+        <audio controls>
+          <source src="../audio1.mp3" type="audio/mp3" />
+        </audio>
+        <div class="listing">
+          <p><a href="#section3">About</a></p>
+          <p><a href="#section1">Projects</a></p>
+          <p><a href="#section2">Skills</a></p>
+        </div>
+      </section>
+
+      <section class="aboutme">
+        <p id="section3">About Me</p>
+        <div class="avi">
+          <div class="video">
+            <video controls autoplay muted>
+              <source src="../assets/Video/video1.mp4" />
+            </video>
+          </div>
+          <!-- <hr />
+          <hr /> -->
+          <div class="iframe">
+            <h2>My Current Favourite Music:</h2>
+            <iframe
+              width="300"
+              height="300"
+              src="https://www.youtube.com/embed/glCm8fi-1uk?si=8WHmZDbf7raILz3c"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="audio">
+            <h2>Audio:</h2>
+            <audio controls muted>
+              <source src="../audio1.mp3" />
+            </audio>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="project" id="section1">
+          <p class="projectname">Projects</p>
+          <div class="projectsview">
+            <img
+              src="https://images.unsplash.com/photo-1519865885898-a54a6f2c7eea?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c3BsYXNofGVufDB8fDB8fHww"
+              alt="project1"
+              height="250px"
+              width="250px"
+            />
+            <img
+              src="https://images.unsplash.com/photo-1594897030264-ab7d87efc473?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHNwbGFzaHxlbnwwfHwwfHx8MA%3D%3D"
+              alt="project2"
+              height="250px"
+              width="250px"
+            />
+            <img
+              src="https://images.unsplash.com/photo-1587473555771-96aef0d968cc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHNwbGFzaHxlbnwwfHwwfHx8MA%3D%3D"
+              alt="project2"
+              height="250px"
+              width="250px"
+            />
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="skillsection">
+          <p class="skilltitle" id="section2">Skills</p>
+          <div class="skilllist">
+            <ol>
+              <li>Apple</li>
+              <li>Banana</li>
+              <li>Orange</li>
+            </ol>
+          </div>
+        </div>
+      </section>
+      <hr />
+      <hr />
+    </main>
+  </body>
+</html>

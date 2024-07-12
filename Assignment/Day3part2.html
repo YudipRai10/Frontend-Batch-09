@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="day3style.css" />
+    <style>
+      a:link {
+        text-decoration: none;
+      }
+      a:visited {
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1 id="title">Contact Me</h1>
+      <nav class="navbar">
+        <button><a href="http://google.com" target="_blank">Google</a></button>
+        <form action="Day3part2.html" target="_blank">
+          <button type="submit">Contact Me</button>
+        </form>
+      </nav>
+    </header>
+    <section class="part2section">
+      <img src="../Images/my pp photo jpf.jpg" alt="my profile picture" />
+      <form>
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname" minlength="7" />
+
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname" />
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" />
+
+        <label for="phone">Phone no:</label>
+        <input
+          type="tel"
+          id="phone"
+          name="phone"
+          placeholder="1234567890"
+          pattern="[0-9]{10}"
+        />
+        <br />
+
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname" />
+
+        <input type="submit" value="submit" />
+
+        <input type="reset" value="Reset" />
+
+        <input type="button" value="click me" /><br />
+
+        <label for="favcolor">Select your fav color:</label>
+        <input type="color" id="favcolor" name="favcolor" />
+
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday" />
+
+        <label for="birthdaytime">Birthday (date and time):</label>
+        <input
+          type="datetime-local"
+          id="birthdaytime"
+          name="birthdaytime"
+        /><br />
+
+        <label for="email">Enter your email:</label>
+        <input type="email" id="email" name="email" />
+
+        <input
+          type="image"
+          src="../Images/bg.jpg"
+          alt="Submit"
+          width="48"
+          height="48"
+        />
+
+        <label for="myfile">Select a file:</label>
+        <input type="file" id="myfile" name="myfile" />
+
+        <label for="bdaymonth">Birthday (month and year):</label>
+        <input type="month" id="bdaymonth" name="bdaymonth" /><br /><br />
+
+        <label for="Mr">Mr.</label>
+        <input type="radio" id="Mr" value="Mr" name="title" />
+        <label for="Ms">Ms.</label>
+        <input type="radio" id="Ms" value="Ms" name="title" />
+
+        <label for="payment">Payment:</label>
+        <select id="payment">
+          <option value="visa">Visa</option>
+          <option value="mastercard">Mastercard</option>
+          <option value="giftcard">Giftcard</option></select
+        ><br /><br />
+
+        <label for="subscribe">Subscribe</label>
+        <input type="checkbox" id="subscribe" /><br /><br />
+      </form>
+      <form action="Day3.html">
+        <button type="submit">Submit</button>
+      </form>
+      <button><a href="Day3part2.html">Reset</a></button>
+    </section>
+  </body>
+</html>
